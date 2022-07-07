@@ -1,3 +1,7 @@
+# CPU Scheduling Simulator
+
+This program implements a round-robin CPU scheduling simulator. The input to the simulator will be a set of processes and a time slice. Each process will be described by an id, arrival time and CPU burst. The simulator will simulate RR scheduling on these processes and for each process it will calculate its start time and finish time. The simulator will also compute a condensed execution sequence of all processes.
+
 To compile all code, type:
 ```
 $ make
